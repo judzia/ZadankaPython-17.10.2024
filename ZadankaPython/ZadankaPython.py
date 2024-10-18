@@ -16,3 +16,28 @@ def is_criticality_balanced(temp, liczba_neutronow):
 
 print(is_criticality_balanced(temp, liczba_neutronow))
 
+# zad 2
+
+current=float(input("Podaj natezenie pradu: "))
+voltage=float(input("Podaj napiecie elektryczne: "))
+theoretical_max_power=float(input("Podaj teorytyczna moc maksymalna: "))
+
+def reactor_efficiency(voltage, current, theoretical_max_power):
+
+    generated_power = voltage * current
+
+    wartosc = (generated_power/theoretical_max_power)*100
+    if wartosc>=80.:
+        return "zielony"
+    elif 60<=wartosc<80:
+        return "pomaranczowy"
+    elif 30<=wartosc<60:
+        return "czerwony"
+    else:
+        return "czarny"
+
+print(reactor_efficiency(voltage, current, theoretical_max_power))
+
+
+
+    
