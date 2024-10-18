@@ -38,6 +38,30 @@ def reactor_efficiency(voltage, current, theoretical_max_power):
 
 print(reactor_efficiency(voltage, current, theoretical_max_power))
 
+# zad 3
+
+
+temperatura=float(input("Podaj temperature w Kelwinach: "))
+neutrony_na_s=float(input("Podaj liczbe neutronow na sekunde: "))
+prog=float(input("Podaj wartosc progowa: "))
+
+
+def fail_safe(temperatura, neutrony_na_s, prog ):
+    wartosc= temperatura * neutrony_na_s
+
+    gorna_granica = 0.9*prog # 90% wartosci progowej
+    dolna_granica = 1.1*prog # 110% wartosci progowej
+
+    if wartosc < dolna_granica:
+        return "LOW"
+    elif dolna_granica <= wartosc <= gorna_granica:
+        return "NORMAL"
+    else: 
+        return "HIGH"
+
+print(fail_safe(temperatura, neutrony_na_s, prog))
+
+
 
 
     
