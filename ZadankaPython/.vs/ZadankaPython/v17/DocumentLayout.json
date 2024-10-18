@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\studia 2 rok\\ZadankaPython\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E13B29BA-2F58-4760-8C31-589AC99D116F}|ZadankaPython.pyproj|C:\\Users\\PC\\Desktop\\studia 2 rok\\ZadankaPython\\ZadankaPython.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E13B29BA-2F58-4760-8C31-589AC99D116F}|ZadankaPython.pyproj|solutionrelative:ZadankaPython.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZadankaPython.py",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\studia 2 rok\\ZadankaPython\\ZadankaPython.py",
+              "RelativeDocumentMoniker": "ZadankaPython.py",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\studia 2 rok\\ZadankaPython\\ZadankaPython.py",
+              "RelativeToolTip": "ZadankaPython.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2024-10-18T13:33:34.008Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
